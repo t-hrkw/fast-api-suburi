@@ -13,6 +13,7 @@ class Blog(BlogBase):
 class User(BaseModel):
   name: str
   email: str
+  password: str
 
 
 class ShowUser(BaseModel):
